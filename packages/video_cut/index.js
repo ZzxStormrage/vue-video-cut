@@ -1,2 +1,6 @@
 import videoCut from './src/main.vue';
-export default videoCut;
+
+videoCut.install = function (Vue) {
+  Vue.component(videoCut.name, videoCut)
+}
+export default videoCut
