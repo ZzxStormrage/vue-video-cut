@@ -1,6 +1,6 @@
 <template>
   <div class="video-cut-wrap">
-    <video id="previewVideoPlayer" class="video-js"></video>
+    <video :id="'previewVideoPlayer' + this._uid" class="video-js"></video>
   </div>
 </template>
 
@@ -85,7 +85,8 @@ export default {
       self.options.width = video_options.width
       self.options.height = video_options.height
 
-      self.player = videojs('previewVideoPlayer', self.options, function onPlayerReady() {
+      let id = 'previewVideoPlayer' + this._uid
+      self.player = videojs(id, self.options, function onPlayerReady() {
         self.player.load()
         self.player.reset()
         // this.volume(0)
