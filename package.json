@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:ZzxStormrage/vue-mimi-alert.git"
+    "url": "git@github.com:ZzxStormrage/vue-video-cut.git"
   },
   "dependencies": {
     "core-js": "^3.6.5",
