@@ -21,13 +21,7 @@ export default {
         return {}
       }
     },
-    start_time_s: {
-      type: Number,
-      default() {
-        return 0
-      }
-    },
-    second_time: {
+    start_time_ms: {
       type: Number,
       default() {
         return 0
@@ -81,22 +75,9 @@ export default {
     // }
   },
   watch: {
-    second_time() {
-      if (this.player) {
-        var s = this.second_time
-        this.player.currentTime(parseFloat(s / 1000))
-      }
-    },
-    // updata_num(val) {
-    //   var s = this.player.currentTime()
-    //   this.$store.commit('getVideoTime', s)
-    // }
+
   },
   methods: {
-    close() {
-      this.$emit('previewVideoShow', false)
-      this.$store.commit('modalHidden', 'previewVideoModel')
-    },
     videoInit() {
       const self = this
 
@@ -115,8 +96,8 @@ export default {
           }
         ])
 
-        if (self.start_time_s > 0) {
-          var s = self.start_time_s
+        if (self.start_time_ms > 0) {
+          var s = self.start_time_ms / 1000
           this.currentTime(s)
         }
 
