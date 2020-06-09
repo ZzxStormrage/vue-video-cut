@@ -1,3 +1,5 @@
+## 前端截取视频 片段插件 基于vue videoJS 支持跳转指定毫秒
+
 ## Install
 ```shell
 cnpm install vue-video-cut -S
