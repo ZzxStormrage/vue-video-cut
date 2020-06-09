@@ -1,11 +1,21 @@
 {
-  "name": "video_cut",
-  "version": "0.1.0",
-  "private": true,
+  "name": "vue-video-cut",
+  "version": "1.0.1",
+  "author": "jason",
+  "description": "vue-video-cut",
+  "main": "lib/vue-video-cut.umd.min.js",
+  "keyword": "vue svg icon",
+  "license": "MIT",
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "lib": "vue-cli-service build --target lib --name vue-video-cut --dest lib packages/index.js",
     "lint": "vue-cli-service lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ZzxStormrage/vue-mimi-alert.git"
   },
   "dependencies": {
     "core-js": "^3.6.5",
