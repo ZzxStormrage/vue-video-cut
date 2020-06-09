@@ -1,12 +1,12 @@
 ## Install
 ```shell
-cnpm install vue-mimi-alert -S
+cnpm install vue-video-cut -S
 ```
 
 ## Quick Start
 ``` javascript
 import Vue from 'vue'
-import videoCut from 'vue-mimi-alert'
+import videoCut from 'vue-video-cut'
 
 Vue.use(videoCut)
 ```
