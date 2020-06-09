@@ -6,5 +6,12 @@ module.exports = {
       template: 'public/index.html',
       filename: 'index.html'
     }
+  },
+  lintOnSave: false,
+  devServer: {
+    overlay: {
+        warnings: false,
+        errors: false
+    }
   }
 }

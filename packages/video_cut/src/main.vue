@@ -12,7 +12,6 @@ import '../assets/custom-video.scss'
 // import './video_watermark.js'
 // import './video_watermark.scss'
 
-
 export default {
   name: 'VideoCut',
   props: {
@@ -128,7 +127,7 @@ export default {
         })
         this.on('timeupdate', function() {
           const curTime = this.currentTime()
-          self.$store.commit('timeupdate', curTime)
+          
           if (curTime > 60) {
             self.videoOffset()
           }
@@ -178,7 +177,7 @@ export default {
     this.videoInit()
     this.videoOffset()
     this.videoPause()
-    this.setWatermark()
+    // this.setWatermark()
   },
   beforeDestroy() {
     if (this.player) {
