@@ -27,7 +27,8 @@ video_offset_ms: {
   start_ms: 20000, #开始时间 毫秒
   end_ms: 50000 #结束时间 毫秒
 }
-start_time_ms: 1000 #跳转到指定帧 start_time_ms 和 video_offset_ms 不能同时使用
+start_time_ms: 1000 #跳转到指定帧 
+start_time_ms 和 video_offset_ms 不能同时使用
 
   
 ```
