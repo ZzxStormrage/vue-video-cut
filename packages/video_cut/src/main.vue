@@ -1,5 +1,5 @@
 <template>
-  <div class="video-cut-wrap">
+  <div id="video-cut-wrap">
     <video :id="'previewVideoPlayer' + this._uid" class="video-js"></video>
   </div>
 </template>

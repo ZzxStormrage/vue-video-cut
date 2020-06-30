@@ -1,4 +1,5 @@
-.video-js {
+#video-cut-wrap{
+    .video-js {
     position: relative;
 
     .vjs-big-play-button {
@@ -26,4 +27,5 @@
     .vjs-load-progress {
         overflow: hidden;
     }
+}
 }
