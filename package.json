@@ -1,6 +1,6 @@
 {
   "name": "vue-video-cut",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "author": "jason",
   "description": "vue-video-cut",
   "main": "lib/vue-video-cut.umd.min.js",
