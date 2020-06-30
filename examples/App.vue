@@ -13,8 +13,8 @@ export default {
   data() {
     return {
       video_options: {
-        width: 900,
-        height: 600,
+        width: 270,
+        height: 150,
         src: "http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"
       },
       video_offset_ms: {

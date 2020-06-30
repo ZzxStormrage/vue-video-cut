@@ -23,26 +23,7 @@
         }
 
     }
-
-    .vjs-progress-control {
+    .vjs-load-progress {
         overflow: hidden;
     }
-
-    .vjs-time-control {
-        display: block !important;
-        padding-left: 0.2em !important;
-        padding-right: 0.2em !important;
-        min-width: 0.2rem !important;
-
-    }
-
-    .vjs-control-bar {
-        .vjs-picture-in-picture-control {
-            display: none;
-        }
-    }
-}
-
-.vjs-error .vjs-error-display:before {
-    content: "" !important;
 }
